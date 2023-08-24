@@ -11,6 +11,29 @@ body {
   height: 100vh;
 }
 
+
+
+p{
+  text-align: center;
+  margin: 20px;
+  word-spacing: 2px;
+  white-space: 20px;
+
+}
+#foxtail h1{
+  font-size: 30px;
+}
+
+p{
+  font-size: 20px;
+}
+
+h2{
+  font-size: 30px;
+}
+
+
+
 .slider-container {
   position: relative;
   overflow: hidden;
@@ -41,6 +64,7 @@ body {
   font-size: 40px;
   margin-bottom: 10px;
   margin-top: -30px;
+  
 }
 
 .right-slide {
@@ -53,6 +77,13 @@ body {
 }
 
 .right-slide > div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+}
+.left-slide > div {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -80,7 +111,7 @@ button:focus {
 .slider-container .action-buttons button {
   position: absolute;
   left: 35%;
-  top: 50%;
+  top: 80%;
   z-index: 100;
 }
 
